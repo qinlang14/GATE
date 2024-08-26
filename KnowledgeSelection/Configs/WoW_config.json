@@ -1,0 +1,25 @@
+{
+  "data": {
+    "topic_split": true,
+    "size": 1.0
+  },
+  "model": {
+    "hidden_dim": 768,
+    "lr": 5e-4,
+    "propagation_rate": 0.5,
+    "base_poolsize": 50,
+    "min_poolsize": 1,
+    "reward": [
+      1,
+      1,
+      1
+    ],
+    "epochs": 50,
+    "max_hops": 3,
+    "early_stop": true,
+    "precision": "32"
+  },
+  "data_name": "WoW",
+  "batch_size": 256,
+  "rollouts": 2
+}
